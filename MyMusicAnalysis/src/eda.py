@@ -4,6 +4,12 @@ import seaborn as sns
 
 class EDA:
     def __init__(self, dataset_path):
+        """
+        Initialize the EDA class with the dataset path.
+
+        Parameters:
+        - dataset_path (str): Path to the dataset CSV file.
+        """
         self.dataset_path = dataset_path
 
     def eda_summary(self):
@@ -14,7 +20,7 @@ class EDA:
         - Summary statistics for each attribute
         - Graphical analysis using Matplotlib and Seaborn
         """
-        # Write code to read the dataset
+        # Read the dataset
         data = pd.read_csv(self.dataset_path)
 
         # Display summary statistics
@@ -38,5 +44,5 @@ class EDA:
 if __name__ == "__main__":
     # Example Usage
     dataset_path = "C:/Users/emman/OneDrive/Desktop/MyMusicAnalysis/Acoustic Features.csv"  # Update the path accordingly
-    analysis = EDA(dataset_path)  # Fix the class name to EDA
+    analysis = EDA(dataset_path)
     analysis.eda_summary()

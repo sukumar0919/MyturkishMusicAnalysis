@@ -5,9 +5,23 @@ from sklearn.preprocessing import LabelEncoder
 
 class Inference:
     def __init__(self, dataset_path):
+        """
+        Initialize the Inference class with the dataset path.
+
+        Parameters:
+        - dataset_path (str): Path to the dataset CSV file.
+        """
         self.dataset_path = dataset_path
 
     def perform_inference(self):
+        """
+        Perform inference on the dataset, exploring correlations between selected acoustic features and emotions.
+
+        Displays a correlation matrix using Matplotlib and Seaborn, along with a narrative summarizing key findings.
+
+        Returns:
+        - None
+        """
         # Load the dataset
         data = pd.read_csv(self.dataset_path)
 

@@ -10,16 +10,16 @@ The central research question guiding this analysis is: "How do different acoust
 
 ## Dataset Source
 
-The dataset used in this analysis is sourced from https://archive.ics.uci.edu/dataset/862/turkish+music+emotion. It comprises a collection of Turkish music tracks, each labeled with specific emotional categories.
+The dataset used in this analysis is sourced from [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/862/turkish+music+emotion). It comprises a collection of Turkish music tracks, each labeled with specific emotional categories.
 
 ## Tools and Technologies
 
-The analysis utilizes the following tools and technologies:
+The analysis utilizes a range of tools and technologies, including:
 
-- Python 3
-- Pandas
-- Matplotlib
-- Seaborn
+- **Python 3**: The programming language for data analysis.
+- **Pandas**: A data manipulation and analysis library.
+- **Matplotlib**: A plotting library for creating static, animated, and interactive visualizations.
+- **Seaborn**: A statistical data visualization library.
 
 ## Structure
 
@@ -31,7 +31,7 @@ The project is organized into several sections:
 
 3. **Exploratory Data Analysis (EDA)**: Provides summary statistics for each attribute and includes graphical analysis using Matplotlib and Seaborn.
 
-4. **Inference**: Performs analysis to answer the research question, including visualizations with Matplotlib and Seaborn.
+4. **Inference**: Performs analysis to answer the research question, including visualizations with Matplotlib and Seaborn. This section likely involves machine learning models and cross-validation.
 
 5. **Conclusion**: A concise narrative explaining the conclusions drawn from the analysis.
 
@@ -59,8 +59,8 @@ To run the analysis, follow these steps:
 ## Contact Information
 
 - Email: Schigur1@mail.yu.edu
-- Location: Edison, New jersey
-- https://github.com/Sukumar0919/MyTurkishMusicAnalysis
+- Location: Edison, New Jersey
+- [GitHub Repository](https://github.com/Sukumar0919/MyTurkishMusicAnalysis)
 
 Feel free to reach out for any questions or feedback!
 
